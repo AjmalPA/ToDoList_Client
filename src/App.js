@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LoginForm from './components/loginform';
 
 class App extends Component {
   render() {
@@ -9,17 +10,19 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            {/* Edit <code>src/App.js</code> and save to reload. */}
+            <code>To-Do List</code>
           </p>
-          <a
+          {/* <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
-          </a>
+            Learn Reacts
+          </a> */}
         </header>
+        <LoginForm></LoginForm>
       </div>
     );
   }
